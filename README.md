@@ -1,6 +1,6 @@
 # npmtest-co-express
 
-#### test coverage for  [co-express (v2.0.0)](https://github.com/mciparelli/co-express#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-co-express.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-co-express) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-co-express.svg)](https://travis-ci.org/npmtest/node-npmtest-co-express)
+#### basic test coverage for  [co-express (v2.0.0)](https://github.com/mciparelli/co-express#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-co-express.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-co-express) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-co-express.svg)](https://travis-ci.org/npmtest/node-npmtest-co-express)
 
 #### An express wrapper that enables generators to be used as middlewares
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-co-express/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-co-express/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-co-express/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-co-express/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-co-express/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-co-express/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-co-express/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-co-express/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-co-express/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-co-express/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-co-express/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-co-express/build/coverage.html/index.html)
 
@@ -96,7 +96,8 @@
     "scripts": {
         "test": "mocha --harmony"
     },
-    "version": "2.0.0"
+    "version": "2.0.0",
+    "bin": {}
 }
 ```
 
